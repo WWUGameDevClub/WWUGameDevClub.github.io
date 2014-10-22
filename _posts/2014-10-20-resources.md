@@ -77,3 +77,19 @@ GitHub offers a number of free services and tools to students on the [GitHub Edu
 #### <a name="student-tools-dreamspark">DreamSpark</a>
 
 Microsoft offers a lot (a *lot*) of free software to students through their DreamSpark program. I know for sure you can get Office, Visual Studio, and various versions of Windows; there's also a lot of other stuff they offer. You can learn more about it and sign up [here](https://www.dreamspark.com/Student/Default.aspx).
+
+### <a name="tutorials">Tutorials</a>
+
+Section coming soon!
+
+### <a name="club-githubs">Club GitHubs</a>
+
+Any club member willing to share their GitHub (or BitBucket, if that's what you prefer) will be linked here with a small summary of what you might find useful there.
+
+#### <a name="club-github-self">Club GitHub</a>
+
+The [club's GitHub organization](https://github.com/wwugamedevclub) is where you'll find the GitHub repo for this site (please, fork and edit it!), as well as a game the previous incarnation of the club was working on. I don't know if anything else will show up there, but if it does we'll make note of it here!
+
+#### <a name="club-github-snooz">Alex Van Liew's GitHub</a>
+
+Club leader Alex Van Liew has a number of projects on [his GitHub](https://github.com/snoozbuster), most of which aren't really finished. Of special interest to the club are the source code for previous Ludum Dare entries, an unfinished C#/XNA engine called Apathy, and a library and tools to read Blender (`.blend`) files. 
