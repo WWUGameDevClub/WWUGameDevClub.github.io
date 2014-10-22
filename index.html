@@ -4,7 +4,7 @@ title: Home
 ---
 
 {% for post in site.posts %}
-<div class="content">
+<div class="content" id="{{ post.title|slugify }}">
     <h2><a name="{{ post.title|slugify }}">{{ post.title }}</a></h2>
     {{ post.content|marksafe }}
 </div>
