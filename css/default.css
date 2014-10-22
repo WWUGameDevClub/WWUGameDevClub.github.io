@@ -10,11 +10,28 @@ body {
 }
 .center {
     margin: auto;
+    clear: both;
 }
 #header {
     border-radius: 8px;
     background-color: rgba(180, 180, 180, 150);
-    text-align: center;
+}
+#header h1 {
+    display: inline-block;
+    margin-left: 10px;
+}
+nav {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 5px;
 }
 .content {
     border-radius: 8px;
