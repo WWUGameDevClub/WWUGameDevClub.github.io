@@ -8,10 +8,8 @@ This is where you'll find a listing of all the resources the club has compiled f
 
 {% comment %}It's important that the template is formatted like it is so that the markdown comes out correctly.{% endcomment %}
 {% for category in site.data.resources %}
-- [{{ category.name }}](#{{ category.name|slugify }})
-{% for entry in category.entries %}    - [{{ entry.name }}](#{{ category.name|slugify }}-{{ entry.name|slugify }})
-{% endfor %}
-{% endfor %}
+- [{{ category.name }}](#{{ category.name|slugify }}){% for entry in category.entries %}
+    - [{{ entry.name }}](#{{ category.name|slugify }}-{{ entry.name|slugify }}){% endfor %}{% endfor %}
 
 {% for category in site.data.resources %}
 

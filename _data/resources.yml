@@ -26,6 +26,8 @@
        description: "GitHub offers a number of free services and tools to students on the [GitHub Education](https://education.github.com/pack/) website. There's 14 different things offered, but probably the most interesting is Unreal Engine 4. All you have to do to get it is link your student email to your GitHub account and fill out a short form that includes the question \"How will you use GitHub?\". The application says it will be reviewed and they'll get back to you in a week, but mine was immediately accepted; it might partially be dependent on how often you use GitHub."
      - name: "DreamSpark"
        description: "Microsoft offers a lot (a *lot*) of free software to students through their DreamSpark program. I know for sure you can get Office, Visual Studio, and various versions of Windows; there's also a lot of other stuff they offer. You can learn more about it and sign up [here](https://www.dreamspark.com/Student/Default.aspx)."
+     - name: "Autodesk (Maya/3DS Max)"
+       description: "Autodesk offers an impressive amount of software to students for educational purposes. You can't use any of it in anything for-profit, but if you're interested in what they have, take a look [here](http://www.autodesk.com/education/free-software/all)."
 - name: Tutorials
   description: "Ever wanted to learn how to use a particular tool? Here's your chance! Most of the entries in this section are just lists of links to places with a short description about what you should expect to find on the other end."
   entries: 
@@ -49,9 +51,19 @@
           - [Open Game Art](http://opengameart.org/): Textures and sprites!
 
     - name: Unreal Engine 4
-      description: "Nothing here yet."
+      description: |
+          Once you sign up for an account on Unreal Engine's website, your dashboard will show a number of resources including:
+
+          - The [wiki](https://wiki.unrealengine.com/)
+          - Their [YouTube](https://www.youtube.com/user/UnrealDevelopmentKit/playlists)
+          - Their [official documentation](https://docs.unrealengine.com/)
+          - The [forums](https://forums.unrealengine.com/)
+          - Their [Q&A site](https://answers.unrealengine.com/)
     - name: Unity
-      description: "Nothing here yet."
+      description: |
+
+          - The [official Unity tutorials](http://unity3d.com/learn/tutorials/modules) are a good way to start.
+          - [This site](http://www.unity3dstudent.com/) appears to be another good resource on Unity.
     - name: Python
       description: |
           - [CodeAcademy](http://www.codecademy.com/): Online tutorials with interpreters to help you learn Python.
@@ -75,6 +87,12 @@
 
      - [Indie Game Do's and Don'ts](http://www.gamasutra.com/view/news/26577/Opinion_Indie_Game_Design_Dos_and_Donts_A_Manifesto.php): "Indie Game Design Do-s and Don't-s: A Manifesto," by Edmund McMillen
      - [Game Programming Patterns](http://gameprogrammingpatterns.com/): An online book about various strategies for game development. A must read for any coder, and recommended for anyone else.
+     - [Indie Gamedev FAQs](http://www.vine2d.com/post/17243872646/indie-game-dev-faq)
+     - [2D Platforming implementation guide](http://higherorderfun.com/blog/2012/05/20/the-guide-to-implementing-2d-platformers/)
+     - [Gravity in Games](http://www.niksula.hut.fi/~hkankaan/Homepages/gravity.html): An interesting read about implementation of gravity.
+     - [3D Procedural Dungeon Generation](http://gamedevelopment.tutsplus.com/tutorials/bake-your-own-3d-dungeons-with-procedural-recipes--gamedev-14360): The guide is for Unity, but the ideas are applicable to other frameworks.
+     - [Game Networking Articles](http://gafferongames.com/networking-for-game-programmers/)
+     - [Storytelling Tips from Pixar](http://io9.com/5916970/the-22-rules-of-storytelling-according-to-pixar)
 
   entries: []
 - name: Miscellaneous Links and Assets
@@ -87,3 +105,12 @@
      - [KelgarDev](http://kelgardev.forumieren.org/h2-tools): Lists of content generators!
      - [FreeSound](http://www.freesound.org/): Free sounds (requires an account).
      - [Incompetech](http://incompetech.com/music/royalty-free/): Good, royalty free music, but it tends to be overused.
+     - [Pixel Prospector resource list](http://www.pixelprospector.com/indie-resources/): A giant resource list for indie dev.
+     - [Stanford Game Design Resources](http://www-cs-students.stanford.edu/~amitp/gameprog.html)
+  entries: []
+- name: Miscellaneous Tools
+  description: |
+      Tools that should be mentioned but that I haven't used so I can't write a full entry for are listed here.
+
+      - [Graphics Gale](http://www.humanbalance.net/gale/us/): An excellent tool for making sprite animations.
+      - [Ogmo Editor](http://www.ogmoeditor.com/): An open source 2d level editor that exports to multiple formats, very handy for tile based games.
