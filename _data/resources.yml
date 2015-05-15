@@ -81,6 +81,9 @@
       description: "The [club's GitHub organization](https://github.com/wwugamedevclub) is where you'll find the GitHub repo for this site (please, fork and edit it!), as well as a game the previous incarnation of the club was working on. I don't know if anything else will show up there, but if it does we'll make note of it here!"
     - name: "Alex Van Liew's GitHub"
       description: "Club leader Alex Van Liew has a number of projects on [his GitHub](https://github.com/snoozbuster), most of which aren't really finished. Of special interest to the club are the source code for previous Ludum Dare entries, an unfinished C#/XNA engine called Apathy, and a library and tools to read Blender (`.blend`) files."
+- name: Udemy Courses
+  description: |
+     Udemy has generously offered a number of their courses on game developement free to us. You can view a list of free courses [on their site](https://www.udemy.com/courses/Development/Game-Development/?p=1&sort=popularity&price=price-free&view=grid).
 - name: Reading Materials
   description: |
      Various materials (books, articles, and so on) that you may enjoy reading to get a better understanding of game development in general.
