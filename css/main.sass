@@ -1,0 +1,32 @@
+/*
+Error: The line was indented 2 levels deeper than the previous line.
+        on line 50 of main.css
+
+45: 
+46: 
+47: 
+48: // Import partials from `sass_dir` (defaults to `_sass`)
+49: @import
+50:         "base",
+51:         "layout",
+52:         "syntax-highlighting"
+53: ;
+
+Backtrace:
+main.css:50
+/home/paul/.gem/ruby/2.3.0/gems/sass-3.4.21/lib/sass/engine.rb:517:in `tree'
+/home/paul/.gem/ruby/2.3.0/gems/sass-3.4.21/lib/sass/engine.rb:406:in `_to_tree'
+/home/paul/.gem/ruby/2.3.0/gems/sass-3.4.21/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/home/paul/.gem/ruby/2.3.0/gems/sass-3.4.21/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/home/paul/.gem/ruby/2.3.0/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:414:in `run'
+/home/paul/.gem/ruby/2.3.0/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/home/paul/.gem/ruby/2.3.0/gems/sass-3.4.21/lib/sass/exec/base.rb:52:in `parse'
+/home/paul/.gem/ruby/2.3.0/gems/sass-3.4.21/lib/sass/exec/base.rb:19:in `parse!'
+/home/paul/.gem/ruby/2.3.0/gems/sass-3.4.21/bin/sass:13:in `<top (required)>'
+/home/paul/.gem/ruby/2.3.0/bin/sass:23:in `load'
+/home/paul/.gem/ruby/2.3.0/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: The line was indented 2 levels deeper than the previous line.\A         on line 50 of main.css\A \A 45: \A 46: \A 47: \A 48: // Import partials from `sass_dir` (defaults to `_sass`)\A 49: @import\A 50:         \"base\",\A 51:         \"layout\",\A 52:         \"syntax-highlighting\"\A 53: ;"; }
